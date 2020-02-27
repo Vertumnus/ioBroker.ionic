@@ -1,4 +1,4 @@
-![Logo](admin/logo-ionic.svg =100x100)
+<img src="admin/logo-ionic.svg" alt="Logo" width="100" height="100">
 # ioBroker.ionic
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.ionic.svg)](https://www.npmjs.com/package/iobroker.ionic)
