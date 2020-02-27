@@ -1,4 +1,4 @@
-![Logo](admin/logo-ionic.svg)
+![Logo](admin/logo-ionic.svg =100x100)
 # ioBroker.ionic
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.ionic.svg)](https://www.npmjs.com/package/iobroker.ionic)
@@ -25,6 +25,7 @@ and the stylesheet files in the sub folder `css` of your route.
 ### Example
 Find here the pattern of the resulting URL to the sub folders
 > **Javascript:** [protocol]://[host|ip]:[port]/[route]/js/
+
 > **Stylesheet:** [protocol]://[host|ip]:[port]/[route]/css/
 
 As example
