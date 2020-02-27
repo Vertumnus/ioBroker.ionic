@@ -1,0 +1,64 @@
+{
+   "common": {
+      "name": "ionic",
+      "version": "0.0.3",
+      "news": {
+         "0.0.1": {
+            "en": "Alpha",
+            "de": "Alpha"
+         },
+         "0.1.0": {
+            "en": "Beta",
+            "de": "Beta"
+         },
+         "1.0.0": {
+            "en": "First release",
+            "de": "Erstveröffentlichung"
+         }
+      },
+      "title": "Ionic Extension",
+      "titleLang": {
+         "en": "Ionic Extension",
+         "de": "Ionic Erweiterung"
+      },
+      "desc": {
+         "en": "Use Ionic as Visualization Framework",
+         "de": "Benutze Ionic als Visualisierungs-Framework"
+      },
+      "authors": [
+         "Armin Junge <armin.junge.81@gmail.com>"
+      ],
+      "keywords": [
+         "web",
+         "GUI",
+         "Visualization",
+         "Ionic"
+      ],
+      "license": "MIT",
+      "platform": "Javascript/Node.js",
+      "icon": "admin/logo-ionic.svg",
+      "enabled": true,
+      "extIcon": "https://raw.githubusercontent.com/Vertumnus/ioBroker.ionic/master/admin/logo-ionic.svg",
+      "readme": "https://.../README.md",
+      "loglevel": "info",
+      "mode": "extension",
+      "singleton": true,
+      "type": "visualization",
+      "webExtension": "webextension.js",
+      "onlyWWW": true,
+      "compact": true,
+      "materialize": true,
+      "dependencies": [
+         {
+            "admin": ">=3.0.0",
+            "web": ">=2.4.10"
+         }
+      ]
+   },
+   "native": {
+      "route": "ionic",
+      "webInstance": "*"
+   },
+   "objects": [],
+   "instanceObjects": []
+}

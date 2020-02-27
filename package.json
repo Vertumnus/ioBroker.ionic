@@ -1,0 +1,19 @@
+{
+   "name": "iobroker.ionic",
+   "version": "0.0.3",
+   "keywords": [
+         "ioBroker",
+         "Smarthome",
+         "Home Automation",
+         "Adapter",
+         "web",
+         "GUI",
+         "Visualization",
+         "Ionic"
+   ],
+   "author": "Armin Junge",
+   "contributors": [],
+   "dependencies": {
+      "@ionic/core": "^5.0.0"
+   }
+}
