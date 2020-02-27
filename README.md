@@ -39,9 +39,10 @@ As example
 > **Consider:** `my.iobroker.host` is an alias for your ioBroker host name or IP and `8082` is the configured port of your web instance
 
 ## License
-The MIT License (MIT)
+MIT License
 
 Copyright (c) 2020 [Armin Junge](mailto:armin.junge.81@gmail.com)
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
