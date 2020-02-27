@@ -39,7 +39,7 @@
       "icon": "admin/logo-ionic.svg",
       "enabled": true,
       "extIcon": "https://raw.githubusercontent.com/Vertumnus/ioBroker.ionic/master/admin/logo-ionic.svg",
-      "readme": "https://.../README.md",
+      "readme": "https://raw.githubusercontent.com/Vertumnus/ioBroker.ionic/master/README.md",
       "loglevel": "info",
       "mode": "extension",
       "singleton": true,
