@@ -16,7 +16,16 @@ const express = require('express')
  */
 class WebExtension {
    constructor(server, webSettings, adapter, instanceSettings, app) {
-      this.config = instanceSettings ? instanceSettings.native : { "route": "ionic" }
+      this.defaultConfig = { "route": "ionic" }
+      if(instanceSettings){
+         this.config = instanceSettings.native
+         if(! /^\w[\w\/-]*\w$/.test(instanceSettings.native.route)){
+            adapter.log.error('Invalid route: ' + instanceSettings.native.route)
+            this.config.route = this.defaultConfig.route
+         }
+      } else {
+         this.config = this.defaultConfig
+      }
       
       app.use('/' + this.config.route + '/js', express.static(path.join(__dirname, 'node_modules/@ionic/core/dist/ionic')))
       app.use('/' + this.config.route + '/css', express.static(path.join(__dirname, 'node_modules/@ionic/core/css')))

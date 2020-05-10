@@ -1,6 +1,7 @@
 {
    "name": "iobroker.ionic",
-   "version": "0.0.3",
+   "description": "ioBroker Ionic Web Extension",
+   "version": "0.1.0",
    "keywords": [
          "ioBroker",
          "Smarthome",
@@ -11,6 +12,9 @@
          "Visualization",
          "Ionic"
    ],
+   "homepage": "https://github.com/Vertumnus/ioBroker.ionic",
+   "bugs": "https://github.com/Vertumnus/ioBroker.ionic/issues",
+   "repository": "github:Vertumnus/ioBroker.ionic",
    "author": "Armin Junge",
    "contributors": [],
    "dependencies": {
