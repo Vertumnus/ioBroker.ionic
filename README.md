@@ -11,13 +11,17 @@
 Provides the [Ionic Framework](https://ionicframework.com/) at the configured route for the chosen web instances
 at a central place installed only once.
 
-Afterwards you can use it in your individuell web visualization(s).
+Afterwards you can use it in your individual web visualization(s).
 
 ## Configuration
-| Parameter | Usage | Default Value |
-| --- | --- | --- |
-| Extended WEB adapter | Instance(s) which shall be extended by the framework | All |
-| Route path | Base route path to the ionic framework | ionic |
+You can configure following parameters at the adapter configuration.
+
+### Extended WEB adapter
+Here you can choose the instance(s), which shall be extended by the framework. The default is **all** web instances.
+
+### Route path
+Here you can specify the route path, where the distributed files of the framework are available on the web server.
+The default route is *ionic*.
 
 ## Routes
 You can find the javascript source files in the sub folder `js` of your route 
@@ -25,20 +29,18 @@ and the stylesheet files in the sub folder `css` of your route.
 
 ### Example
 Find here the pattern of the resulting URL to the sub folders
-> **Javascript:** [protocol]://[host|ip]:[port]/[route]/js/
+> **Javascript:** ([protocol]://[host|ip]:[port])/[route]/js/
 
-> **Stylesheet:** [protocol]://[host|ip]:[port]/[route]/css/
+> **Stylesheet:** ([protocol]://[host|ip]:[port])/[route]/css/
 
 As example
 ```html
 ...
-<script type="module" src="https://my.iobroker.host:8082/ionic/js/ionic.esm.js"></script>
+<script type="module" src="/ionic/js/ionic.esm.js"></script>
 ...
-<link rel="stylesheet" href="https://my.iobroker.host:8082/ionic/css/ionic.bundle.css" />
+<link rel="stylesheet" href="/ionic/css/ionic.bundle.css" />
 ...
 ```
-
-> **Consider:** `my.iobroker.host` is an alias for your ioBroker host name or IP and `8082` is the configured port of your web instance
 
 ## License
 MIT License

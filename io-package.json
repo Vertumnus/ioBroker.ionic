@@ -1,7 +1,7 @@
 {
    "common": {
       "name": "ionic",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "news": {
          "0.1.0": {
             "en": "Beta",
@@ -45,6 +45,9 @@
             "admin": ">=3.0.0",
             "web": ">=2.4.10"
          }
+      ],
+      "restartAdapters": [
+         "web"
       ]
    },
    "native": {
